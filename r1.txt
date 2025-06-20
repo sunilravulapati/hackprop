@@ -1,0 +1,8 @@
+Planned Features/ Works:
+->formating data
+->company wise filter
+->Show product + platform combinations with lots of negative/delivery feedback.
+->Tag reviews as Critical, High, Medium, Low based on severity and type.
+->Add support for a date column (if available) and show trends over time (especially for negative reviews).
+->enhance the frontend
+->deploy the website
