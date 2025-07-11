@@ -31,59 +31,36 @@ A lightweight, AI-powered Streamlit app that analyzes customer reviews across mu
 
 ## 🧪 How to Run Locally
 
-1. **Clone this repository**
+1.**Clone this repository**
 ```bash
 git clone https://github.com/yourusername/feedback-analyzer.git
 cd feedback-analyzer
-Create a virtual environment
-
-bash
-Copy
-Edit
+```
+2.**Create a virtual environment**
+```
 python -m venv venv
 source venv/bin/activate  # For Linux/macOS
-venv\\Scripts\\activate   # For Windows
-Install requirements
-
-bash
-Copy
-Edit
+venv/Scripts/activate   # For Windows
+```
+3.**Install requirements**
+```
 pip install -r requirements.txt
-Download FastText Language Model
-Download lid.176.bin from:
-https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
-Place it inside the utils/ folder.
+```
+4.**Download FastText Language Model**
+- Download lid.176.bin from:
+- https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
+- Place it inside the utils/ folder.
 
-Run the app
-
-bash
-Copy
-Edit
+5.**Run the app**
+```
 streamlit run app.py
-📊 Demo Wireframe
-mathematica
-Copy
-Edit
-+--------------------------------------------------------+
-| Product Summary                                        |
-| Product A  | Total Reviews: 1532 | Positive: 78%       |
-+--------------------------------------------------------+
-| 📊 Sentiment Over Time                                 |
-| [Graph showing daily/weekly sentiment trends]          |
-+--------------------------------------------------------+
-| 🛠 Feature-Level Breakdown                             |
-| Feature   | Positive | Negative | Neutral | Trend      |
-| Battery   |   80%    |   15%    |   5%    | ↓          |
-+--------------------------------------------------------+
-| 🌍 Language Stats & Alerts                             |
-| Hindi: 30% | English: 50% | Tamil: 20%                 |
-| 🔔 Alert: Battery complaints rising in Hindi reviews   |
-+--------------------------------------------------------+
+```
+---
+## Working Video: 
+https://drive.google.com/file/d/1lcCKkNEA_R4qSRTsx09kvjcfoo9fqgmY/view?usp=sharing
+---
 ✨ Future Work
-🎯 Topic modeling using LDA for feedback clustering
-
-🤖 Fully trained transformer for multi-lingual sentiment
-
-🌐 Deployment on Streamlit Cloud or HuggingFace Spaces
-
-📩 Email alerts to sellers for critical feedback
+- 🎯 Topic modeling using LDA for feedback clustering
+- 🤖 Fully trained transformer for multi-lingual sentiment
+- 🌐 Deployment on Streamlit Cloud or HuggingFace Spaces
+- 📩 Email alerts to sellers for critical feedback
